@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "grazer",
+  "version": "${version}",
+  "name": "Grazer",
+  "description": "Respawn Anchor and storage ESP with a custom menu (Delete key).",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.grazer.addon.GrazerAddon"]
+  },
+  "custom": {
+    "meteor-client:color": "255,182,217"
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "meteor-client": "*"
+  }
+}
